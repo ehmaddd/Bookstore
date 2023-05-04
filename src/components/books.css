@@ -1,0 +1,162 @@
+.books-div {
+  align-content: center;
+  margin: auto;
+}
+
+.books-div h1 {
+  text-align: center;
+}
+
+.book-task {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4%;
+  width: 50%;
+  padding-left: 0;
+}
+
+.book-task li {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
+  padding-right: 3%;
+  color: grey;
+}
+
+.book-task :nth-child(1) {
+  border-right: 1px solid lightgray;
+}
+
+.book-task :nth-child(2) {
+  border-right: 1px solid lightgray;
+}
+
+.book-display {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.main-book-div {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  padding: 1% 2%;
+  display: flex;
+  flex-direction: row;
+}
+
+.book-display h2 {
+  margin-bottom: 0;
+}
+
+.book-display p {
+  margin-top: 0;
+  color: grey;
+}
+
+.status {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.status h4 {
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.status p {
+  margin-top: 0;
+}
+
+.completed {
+  color: lightgray;
+}
+
+.status img {
+  width: 30%;
+  height: 60%;
+}
+
+.chapter {
+  width: 20%;
+  margin: auto 2% auto 5%;
+}
+
+.chapter p:nth-child(1) {
+  color: gainsboro;
+  margin-bottom: 0;
+}
+
+.chapter p:nth-child(2) {
+  font-size: 1rem;
+  margin-top: 2.5%;
+}
+
+.chapter button {
+  padding: 0.7rem 1.1rem;
+  color: white;
+  background-color: #0290ff;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divider {
+  width: 0.05rem;
+  height: 5rem;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  margin: auto 1%;
+}
+
+.books-div hr {
+  width: 85%;
+}
+
+.add-book {
+  width: 85%;
+  margin: auto;
+  padding-bottom: 7%;
+}
+
+.add-book h1 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.add-book form {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2.5rem;
+}
+
+.add-book input {
+  width: 25rem;
+  height: 3rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.add-book button {
+  width: 15rem;
+  padding: 0.7rem 4rem;
+  background-color: #0290ff;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
