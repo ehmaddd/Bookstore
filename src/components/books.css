@@ -7,7 +7,6 @@
   text-align: center;
 }
 
-
 .book-task {
   list-style-type: none;
   display: flex;
@@ -32,8 +31,8 @@
 }
 
 .book-task :nth-child(2) {
-    border-right: 1px solid lightgray;
-  }
+  border-right: 1px solid lightgray;
+}
 
 .book-display {
   display: flex;
@@ -106,24 +105,24 @@
 }
 
 .chapter button {
-    padding: 0.7rem 1.1rem;
-    color: white;
-    background-color: #0290ff;
-    border: 1px solid white;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 0.7rem 1.1rem;
+  color: white;
+  background-color: #0290ff;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .divider {
   width: 0.05rem;
   height: 5rem;
   border: 1px solid lightgray;
-  background-color:lightgray;
+  background-color: lightgray;
   margin: auto 1%;
 }
 
 .books-div hr {
-    width: 85%;
+  width: 85%;
 }
 
 .add-book {
