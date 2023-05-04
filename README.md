@@ -1,70 +1,181 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <h1><b>BOOK STORE</b></h1>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+<!-- TABLE OF CONTENTS -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm test`
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 📖 [About the Project] <a name="about-project"></a>
 
-### `npm run build`
+**Book Store** is a Single Page Application which allows the user to have a detailed information about a book library as well as the book reading status. It allows user to keep track of a book read by anyone and also change the particulars and also deleting the book.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://nodejs.org/en">Node.js</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+<summary>Supporting Tech</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/">WebPack</a></li>
+    <li><a href="https://babeljs.io/">Babel</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a name="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **User Friendly**
+- **Easy Access**
+- **Light weight**
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- LIVE DEMO -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Code Splitting
+- <!-- [Live Demo Link] --> (Will be available soon)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Analyzing the Bundle Size
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Making a Progressive Web App
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
 
-### Advanced Configuration
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Hardware Requirements
+
+- RAM 4GB
+- CPU Intel Core i3TM i3 HQ CPU @2.50 GHz
+- ROM 256 GB
+
+#### Software Requirements
+
+1. Install VSCode in your local machine
+2. Install node.js
+
+### Setup
+
+1. Clone using 'git clone git@github.com:ehmaddd/bookstore.git'
+2. run 'npm install'
+
+### Install
+
+- Install dependencies
+- Install linters
+
+### Usage
+
+To run the project, execute the following command:
+
+npm start
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Muhammad Ahmad Saeed**
+
+- <a href='https://github.com/ehmaddd/'>GitHub</a>
+- <a href='https://twitter.com/ehmaddd_pk'>Twitter</a>
+- <a href='https://www.linkedin.com/in/ahmad-saeed-734174148'>LinkedIn</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **[Fully operational]**
+- **[Colorful]**
+- **[Mobile Friendly UI]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ehmaddd/bookstore/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+Everything is small when it comes into being. As a learner, I try to make something innovative daily. So If you like this project please appreciate it by star and you can also reach me out here [👥 Authors](#authors)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank microverse for giving me such a magnificant chance to create these wonderful SPAs. Secondly, the humble regard to github for storing all this stuff. Also I would like to include my family members who are supporting me throughout this journey for making learning possible for me.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is <a href="https://github.com/ehmaddd/bookstore/blob/basic-structure/LICENSE">MIT</a> licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
