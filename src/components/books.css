@@ -86,7 +86,7 @@
 
 .status img {
   width: 30%;
-  height: 60%;
+  height: 50%;
 }
 
 .chapter {
@@ -159,4 +159,12 @@
   border: 1px solid white;
   border-radius: 4px;
   color: white;
+}
+
+.book-task button {
+  background-color: inherit;
+  border: none;
+  color: grey;
+  font-size: 1rem;
+  cursor: pointer;
 }

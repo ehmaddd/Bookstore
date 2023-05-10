@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import './index.css';
-import { BrowserRouter } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import App from './App';
+import store from './Redux/store';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Navbar />
-  </BrowserRouter>,
-  document.getElementById('root'),
+  <Provider store={store}>
+    <App />
+  </Provider>, document.getElementById('root'),
 );
