@@ -3,7 +3,6 @@ import { removeBook } from '../Redux/books/bookSlice';
 import Circle from '../images/semicircle.png';
 
 const BookDisplay = (book) => {
-  // console.log(book);
   const [key, value] = book;
   const { author, title, category } = value[0];
   const dispatch = useDispatch();
