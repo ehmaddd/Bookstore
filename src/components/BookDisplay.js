@@ -3,18 +3,25 @@ import { removeBook } from '../Redux/books/bookSlice';
 import Circle from '../images/semicircle.png';
 
 const BookDisplay = (book) => {
+  // console.log(book);
+  const [key, value] = book;
+  const { author, title, category } = value[0];
   const dispatch = useDispatch();
-  const { itemId, title, author } = book;
   return (
     <>
       <div className="main-book-div">
         <div className="book-display">
-          <h1 key={itemId}> </h1>
+          <h1 key={key}> </h1>
+          <p>{category}</p>
           <h2>{title}</h2>
           <p>{author}</p>
           <ul className="book-task">
             <li>Comments</li>
-            <li><button type="button" onClick={() => dispatch(removeBook({ itemId }))}>Remove</button></li>
+            <li>
+              <button type="button" onClick={() => dispatch(removeBook({ key }))}>
+                Remove
+              </button>
+            </li>
             <li>Edit</li>
           </ul>
         </div>

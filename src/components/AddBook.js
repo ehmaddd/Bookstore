@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../Redux/books/bookSlice';
-
-const getData = (titleText, authorText) => (
-  {
-    title: titleText,
-    author: authorText,
-  }
-);
+import { v4 as uuidv4 } from 'uuid';
+import { sendBook } from '../Redux/books/bookSlice';
 
 const AddBook = () => {
   const dispatch = useDispatch();
@@ -19,7 +13,12 @@ const AddBook = () => {
       <form>
         <input type="text" id="title" placeholder="Book Title" value={title} onChange={(e) => setTitle(e.target.value)} />
         <input type="text" id="author" placeholder="Author" value={author} onChange={(e) => setAuthor(e.target.value)} />
-        <button type="button" onClick={() => dispatch(addBook(getData(title, author)))}>
+        <button
+          type="button"
+          onClick={() => dispatch(sendBook({
+            item_id: uuidv4(), title, author, category: 'fiction',
+          }))}
+        >
           ADD BOOK
         </button>
       </form>
