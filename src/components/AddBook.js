@@ -7,6 +7,8 @@ const AddBook = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
+  const bookCategory = ['Fiction', 'Non-fiction', 'Mystery', 'History', 'Science', 'Thriller', 'Fantasy', 'Autobiography'];
+  const bookCat = bookCategory[Math.floor(Math.random() * 7)];
   return (
     <div className="add-book">
       <h1>ADD NEW BOOK</h1>
@@ -17,7 +19,7 @@ const AddBook = () => {
           type="button"
           onClick={() => dispatch(sendBook(
             {
-              item_id: uuidv4(), title, author, category: 'fiction',
+              item_id: uuidv4(), title, author, category: bookCat,
             },
           ))}
         >

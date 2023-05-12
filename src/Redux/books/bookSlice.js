@@ -27,6 +27,7 @@ export const removeBook = createAsyncThunk('books/remove', async (payload) => {
 const bookSlice = createSlice({
   name: 'books',
   initialState,
+  reducers: {},
   extraReducers: (builder) => {
     builder.addCase(getBooks.pending, (state) => {
       state.isLoading = true;
