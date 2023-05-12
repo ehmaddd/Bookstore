@@ -21,11 +21,11 @@ function App() {
   }
 
   return (
-    <>
+    <div className="book-container">
       <BrowserRouter>
         <Navbar />
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
