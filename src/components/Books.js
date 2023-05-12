@@ -4,11 +4,14 @@ import BookDisplay from './BookDisplay';
 import AddBook from './AddBook';
 
 const Books = () => {
-  const bookArr = useSelector((state) => state.books);
+  const { books, isLoading } = useSelector((state) => state.books);
+  if (isLoading === undefined) {
+    return <div>Loading...</div>;
+  }
   return (
     <div>
       <div className="books-div">
-        {bookArr.books.map((book) => BookDisplay(book))}
+        {Object.entries(books).map((item) => BookDisplay(item))}
         <hr />
         <AddBook />
       </div>
