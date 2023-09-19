@@ -75,7 +75,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <!-- [Live Demo Link] --> (Will be available soon)
+https://book-store-modj.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
